@@ -1,6 +1,6 @@
 #' APF1
 #'
-#' Esta funcion calcula la volatilidad latente de un conjunto de observaciones utilizando
+#' Esta funcion calcula la volatilidad latente de un conjunto de observaciones utilizando el
 #' el filtro auxiliar de partículas (APF). El algoritmo asume que los parámetros del modelo son conocidos.
 #'
 #' @param y representa la serie de observaciones reales.
