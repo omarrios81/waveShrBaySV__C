@@ -1,0 +1,20 @@
+Package: waveShrBaySV
+Title: Eliminación de Ruido en Series de Tiempo vía y Cálculo de la Volatilidad Estocástica.
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Freddy", "Hernandez-Barajas", , "fhernanb@unal.edu.co", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7459-3329")),
+    person("Omar Alexander", "Rios Saavedra", , "orioss@unal.edu.co", role = c("aut"),
+           comment = c(ORCID = ""))       
+           )
+Description: Se implementa una función de eliminación de ruido basado en wavelets
+    con un enfoque bayesiano usando métodos secuenciales Monte Carlo. Además, se 
+    actualizan las funciones para la estimación de la Volatilidad Estocástica por medio
+    de un filtro de partículas convencional implementando un paso de empuje de partículas 
+    en función de la transformación wavelet.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    wavethresh
